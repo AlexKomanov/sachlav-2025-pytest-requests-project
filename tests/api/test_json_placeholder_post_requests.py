@@ -4,7 +4,7 @@ from requests import Response
 
 
 @pytest.mark.api
-def test_get_request_posts():
+def test_post_request_posts():
     headers_to_send = {"Content-type": "application/json; charset=UTF-8"}
     body_to_send = {
         "title": "foo",
